@@ -1,0 +1,63 @@
+#pirmas p,
+#pirmas a {
+  font-size: 20px;
+}
+
+#pirmas p mark:hover {
+  position: relative;
+  bottom: 10px;
+}
+
+#pirmas a:hover {
+  position: relative;
+  left: 20px;
+}
+
+#virsus-blokas a {
+  background: rgba(169, 23, 23);
+  padding: 10px;
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  color: white;
+  margin: 0;
+  text-decoration: 0;
+}
+
+html, body {
+  margin: 0
+  padding: 0;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+header {
+  background-image: url('https://gamtosvaizdai.wordpress.com/2017/10/02/gamta-ir-jos-grozis/');
+  background-size: cover;
+  width: 100%;
+  height: 100vh; 
+  position: relative;
+}
+
+header #info h1 {
+  margin: 0;
+  display: inline-block;
+  background: red;
+  color: white;
+  font-size: 30px;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+}
+header #info p {
+  background: red;
+  color: grey;
+  font-size: 10px;
+  max-width: 50%;
+}
+header #info {
+  position: absolute;
+  margin: 0;
+  bottom: 20px;
+  left: 30px;
+}
