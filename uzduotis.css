@@ -1,0 +1,9 @@
+body {
+  color: #f2e9d8;
+}
+
+h1,
+h2,
+h3 {
+  color: rgba(0, 0, 0, 0.2);
+}
