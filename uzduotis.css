@@ -1,0 +1,12 @@
+body {
+  color: #f2e9d8;
+}
+
+body h1,
+h2,
+h3 {
+  color: rgba(188, 184, 184, 0);
+}
+table {
+  background-image: url(./diena-5/foto/pexels-photo-196667.jpeg);
+}
