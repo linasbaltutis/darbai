@@ -1,0 +1,17 @@
+ul li:nth-child(1) {
+  color: red;
+}
+
+.ulklase li {
+  color: blueviolet;
+}
+.vienas li,
+.du li {
+  color: yellow;
+}
+.a li {
+  color: blue;
+}
+.but {
+  color: red;
+}
