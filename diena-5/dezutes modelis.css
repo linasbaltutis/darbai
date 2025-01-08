@@ -1,0 +1,43 @@
+body {
+  background: rgb(227, 255, 196);
+}
+div {
+  border: 5px solid red;
+  background: rgb(18, 244, 10);
+  max-width: 80%;
+  margin: 80px auto;
+}
+#antras {
+  padding: 5em;
+  border-radius: 150px;
+  box-shadow: 0 0 50px rgb(0, 0, 0, o.5);
+}
+#trecias {
+  padding: 5em 0;
+  border-bottom: 10px solid blueviolet;
+  border-right: 15px dashed blueviolet;
+}
+#ketvirtas {
+  padding: 0 5em 1em;
+  border-top-left-radius: 20px;
+  border-bottom-right-radius: 50px;
+}
+#penktas {
+  padding: 0 0 5em;
+  border-left: 10px dashed blueviolet;
+}
+#pirmas {
+  border: 12px solid blueviolet;
+  box-shadow: 8px 8px 10px green, 15px 15px 10px rgb(255, 0, 255, 1),
+    15px 15px 10px rgb(255, 255, 0, 1);
+}
+#pirmas ul li {
+  display: inline-block;
+}
+#penktas form {
+  width: 500px;
+  padding: 1em;
+}
+#penktas form input {
+    display: block;
+    margin-top: 15px;

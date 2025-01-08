@@ -1,0 +1,38 @@
+ul,
+ol {
+  border: 1px solid red;
+}
+ul {
+  list-style-type: square;
+}
+
+ol {
+  list-style-type: upper-roman;
+}
+
+/*.sarasas {
+  list-style-type: none;
+}*/
+/*.sarasas> li::before {
+  content: "\2660";
+  color: blue;
+}*/
+ul.sarasas {
+  list-style-type: none;
+  padding: 0;
+  text-align: justify;
+}
+ul.sarasas > li::before {
+  content: "\2664";
+  color: blue;
+}
+ul.sarasas {
+  border: 5px solid red;
+  padding: 30px;
+  margin: 20px;
+}
+.blokas {
+  width: 150px;
+  border: 5px solid red;
+  margin: 0 auto;
+}
