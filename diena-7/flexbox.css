@@ -1,7 +1,7 @@
 .flex {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: flex-start;
 }
 .flex > p {
   width: 150px;

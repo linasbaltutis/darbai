@@ -1,0 +1,52 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+/*eis vertikaliai o su row horizontaliai*/
+.container {
+  display: flex;
+  flex-direction: column;
+}
+.section {
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+  height: 250px;
+}
+.section:nth-child(1),
+.section:nth-child(3) {
+  background-color: orange;
+}
+.section:nth-child(2) {
+  background-color: lightgreen;
+}
+.section:nth-child(4) {
+  background-color: cyan;
+}
+.section:nth-child(5) {
+  background-color: crimson;
+}
+.box {
+  background-color: white;
+  padding: 20px;
+  width: 300px;
+}
+/*tiesiog perstumia bloka*/
+.section:nth-child(2) {
+  justify-content: flex-end;
+}
+/* align apkarpo bloka ir nurodo vertikaliai per centra*/
+.section:nth-child(3) {
+  align-items: center;
+}
+/*vertikalia per centra ir horizontaliai per centra*/
+.section:nth-child(4) {
+  align-items: center;
+  justify-content: center;
+}
+.section:nth-child(5) {
+  align-items: flex-end;
+  justify-content: flex-end;
+}
